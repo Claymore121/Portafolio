@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Lopez</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <a href="https://icons8.com/icon/108784/javascript"></a>
+    <script src="https://kit.fontawesome.com/995c44e0f0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+       <div class="fixed">
+            <header class="header">
+                <div class="logo">Logo</div>
+                <div class="toggle">
+                       <i class="fa fa-bars" aria-hidden="true" id="icon"></i>
+                </div> 
+
+                <div class="deskS">
+                    <ul class="nav-menu2">
+                        <li class="nav-menuItem"><a class="nav-lin" href="#home">Home</a></li>
+                        <li class="nav-menuItem"><a class="nav-lin" href="#about">About</a></li>
+                        <li class="nav-menuItem"><a class="nav-lin" href="#skills">skills</a></li>
+                        <li class="nav-menuItem"><a class="nav-lin" href="#portafolio">Portafolio</a></li>
+                        <li class="nav-menuItem"><a class="nav-lin" href="#formulario">contact</a></li>
+                    </ul>
+                </div>
+            </header>
+       </div>
+    
+    <nav class="nav-main active" id="menu">
+        <ul class="nav-menu">
+            <li class="nav-menuItem"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-menuItem"><a class="nav-link2" href="#about">About</a></li>
+            <li class="nav-menuItem"><a class="nav-link3" href="#skills">skills</a></li>
+            <li class="nav-menuItem"><a class="nav-link4" href="#portafolio">Portafolio</a></li>
+            <li class="nav-menuItem"><a class="nav-link0" href="#formulario">contact</a></li>
+        </ul>
+     </nav>    
+    <div class="showcase" id="home">
+        <div class="presentacion">
+            <div class="texto">
+                <h1 class="titulo">Hola! soy luis lopez</h1>
+                <h2 class="subtitulo">desarrollador frontded</h2>
+            </div>
+            <img src="assets/micara.jpeg" alt="" class="micara"> 
+        </div>  
+    </div>
+
+    
+    <main id="about">
+        <div class="texto-about">
+            <h2 class="h2-about">Acerca de mi</h2>
+            <h3>Quien soy? <br> soy Luis Angel Lopez, desarrollador web / <br> e ing. en sistemas computacionales</h3><br>
+            <p>me dedico al desarrollo web soy una persona comprometida y Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum beatae qui, iure assumenda eius ut quis vel vero alias repellendus sequi veniam? Minima amet delectus similique eum laboriosam cum dicta.
+            </p>
+            <div class="CV">
+                <button  class="botonCV"><a href="assets/CV.pdf" download="CV-LuisLopez">Descargar CV</a></button>
+            </div>
+        </div>
+
+        <div class="svg">
+            <img src="assets/fondos/svg blue.svg" alt="">
+        </div>
+        
+   </main>
+    <div class="skills" id="skills">
+        <h2 class="skills-texto">mis habilidades</h2>
+        <div class="skills-logos-cont">
+            <div class="skills-div"><img src="/assets/icons8-html-5.svg" alt="HTML5" class="skills-logo"><h3>HTML5</h3></div>
+            <div class="skills-div"><img class="skills-logo" src="/assets/icons8-css3.svg" alt="css3"><h3>css3</h3></div>
+            <div class="skills-div"><img src="/assets/icons8-javascript.svg" alt="javascript" class="skills-logo"><h3>Javascript</h3></div>
+            <div class="skills-div"><i class="fa-brands fa-github"></i><h3>In process...</h3></div>
+            <div class="skills-div"><i class="fa-brands fa-angular"></i><h3>In process...</h3></div>
+            <div class="skills-div"><i class="fa-brands fa-react"></i><h3>In process...</h3></div>
+            <div class="skills-div"><i class="fa-brands fa-node"></i><h3>In process...</h3></div>
+        </div>
+    
+    </div>
+    <div id="portafolio">
+        <div class="portafolio-texto">
+            <h2>Mis proyectos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, pariatur.</p>
+        </div>
+
+        <div class="proyectos">
+            <div class="proyectos-item">
+                <h2>proyecto 1</h2>
+                <img  class="img-p" src="/assets/wdf.jpg" alt="">
+            </div>
+            <div class="proyectos-item">
+                <h2>proyecto 2</h2>
+                <img src="#" alt="">
+            </div>
+            <div class="proyectos-item">
+                <h2>proyecto 3</h2>
+                <img src="#" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="contacto">
+        <div class="form-cont" id="formulario">
+            <h2>formulario</h2>
+            <form action="#" class="form">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" placeholder="tu nombre y apellidos" ><br>
+
+                <label for="email">Email@</label>
+                <input type="email" placeholder="introduce un email"><br>
+
+                <label for="text">Mensaje</label>
+                <textarea id="text" cols="30" rows="10" placeholder="deja tu Mensaje" ></textarea><br>
+
+                <button class="botonF">enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="menu-f">
+            <ul class="nav-menu-f">
+                <li class="nav-menuItem-f"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-menuItem"><a class="nav-link2" href="#about">About</a></li>
+                <li class="nav-menuItem"><a class="nav-link3" href="#skills">skills</a></li>
+                <li class="nav-menuItem"><a class="nav-link4" href="#portafolio">Portafolio</a></li>
+                <li class="nav-menuItem"><a class="nav-link0" href="#formulario">contact</a></li>
+            </ul>
+            <div class="icon-f">
+                <h3>Mis redes sociales</h3>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.youtube.com/channel/UCDDDY4aCDPhzMG3SN6jAo9g"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="copyright">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/d67e4ba0ff.js" crossorigin="anonymous"></script>
+    <script src="code.js"></script> 
+</body>
+</html>
